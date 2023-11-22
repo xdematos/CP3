@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: black;
+}
+
+
+.bg-header {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/bg-header.jpg);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    padding-top: 20px;
+}
+
+header .logo img {
+    width: 14rem;
+}
+
+header .navegacao ul {
+    display:flex;
+    gap: 20px;
+    list-style: none;
+}
+
+header .navegacao ul li a {
+    text-decoration: none;
+    color: rgb(255,255,255);
+}
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textos {
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+
+.icones {
+    display: flex;
+    gap: 20px;
+}
+
+.textos h4 {
+    color: rgb(245,245,245);
+    font-size: 25px;
+}
+
+.textos h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.inicio .textos a {
+    color: white;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: rgb(229, 193, 62);
+    border-radius: 10px;
+}
+
+.contato {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contato-tela {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.text h3 {
+    color: rgb(254,209,54);
+}
+
+.text p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.texto-baixo {
+    margin-top: 20px;
+}
+
+.texto-baixo p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+    margin: 0;
+}
+
+.texto-baixo .botao {
+    margin-top: 50px;
+}
+
+.texto-baixo .botao a {
+    color: white;
+    font-weight: 700;
+    background-color: rgb(254,209,54);
+    padding: 20px;
+    
+}
+
+.pessoas {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245,245,245);
+    padding-top: 40px;
+}
+
+.texto-pessoas {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-pessoas p {
+    color: rgb(100, 98, 98);
+    margin: 0;
+}
+
+.box-article {
+    display: inline-block;
+    text-align: center;
+}
+
+.img-pessoas {
+    border-radius: 50%;
+    border: 8px solid rgb(255,255,255);
+    max-width: 180px;
+    width: auto;
+}
+
+.article-pessoas {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.funcoes {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-funcoes {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.imagem-camera img {
+    width: 20rem;
+}
+
+.caixa {
+    display: flex;
+}
+
+.funcoes .texto-funcoes h3 {
+    color: rgb(157, 129, 29);
+}
+
+.texto-funcoes p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.caixa-funcoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.caixa-funcoes1 {
+    text-align: center;
+    margin-top: 30px;
+    width: 70%;
+}
+
+.celular {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(245,245,245);
+}
+
+.celulares-box {
+    display: flex;
+    margin-top: 5%;
+}
+
+.icones-sistemas .sistemas {
+    width: 80px;
+}
+
+.icones-sistemas {
+    margin-top: 40px;
+}
+
+.celulares img {
+    width: 20rem;
+}
+
+.texto-celular {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.texto-celular p {
+    font-family: 'Tienne', serif;
+    color: rgb(119,119,119);
+}
+
+.contato2 {
+    background-color: rgb(255,255,255);
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-contato2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.texto-contato2 h3 {
+    color: rgb(254,209,54);
+}
+
+.texto-contato2 p {
+    color: rgb(119,119,119);
+    margin: 0;
+}
+
+.formulario {
+    background-image: url(/img/bg-footer.jpg);
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer-imagem img {
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    width: 10rem;
+}
